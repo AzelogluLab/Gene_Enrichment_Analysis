@@ -202,11 +202,11 @@ def EnrichR_pipeline(directory, output_directory, up_file, down_file, title, num
 
 
 #Run Script
-directory = '/media/nick/LinuxData/RNAseq/Campbell_YAP_Results/DEG' 
-output_directory = '/media/nick/LinuxData/RNAseq/Campbell_YAP_Results/Test'
-up_file = 'second_upregulated_genes.csv'
-down_file = 'second_downregulated_genes.csv'
-number_of_genes = 100
+directory = 
+output_directory = 
+up_file = 
+down_file = 
+number_of_genes = 
 lib1 = 'GO_Biological_Process_2018'
 lib2 = 'KEGG_2019_Mouse'
 lib3 = 'WikiPathways_2019_Mouse'
