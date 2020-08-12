@@ -207,13 +207,6 @@ output_directory =
 up_file = 
 down_file = 
 number_of_genes = 
-lib1 = 'GO_Biological_Process_2018'
-lib2 = 'KEGG_2019_Mouse'
-lib3 = 'WikiPathways_2019_Mouse'
-lib4 = 'MGI_Mammalian_Phenotype_Level_4_2019'
-
-EnrichR_pipeline(directory = directory, output_directory = output_directory, up_file = up_file, down_file = down_file, title = 'YAP', number = number_of_genes, library = lib1)
-EnrichR_pipeline(directory = directory, output_directory = output_directory, up_file = up_file, down_file = down_file, title = 'YAP', number = number_of_genes, library = lib2)
-EnrichR_pipeline(directory = directory, output_directory = output_directory, up_file = up_file, down_file = down_file, title = 'YAP', number = number_of_genes, library = lib3)
-EnrichR_pipeline(directory = directory, output_directory = output_directory, up_file = up_file, down_file = down_file, title = 'YAP', number = number_of_genes, library = lib4)
+lib1 = 
+EnrichR_pipeline(directory = directory, output_directory = output_directory, up_file = up_file, down_file = down_file, title = 'YAP', number = number_of_genes, library = lib)
 
